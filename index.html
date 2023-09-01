@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murat Cankat KÖK</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7232c0b714.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.min.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="left-col">
+            <div class="left-icons" id="left-icon1"><a href="#"><i class="fa-solid fa-eye fa-xl"></i></a></div>
+            <div class="left-icons" id="left-icon2"><a href="#"><i class="fa-solid fa-heart-pulse"></i></a></i></div>
+            <div class="left-icons" id="left-icon3"><a href="#"><i class="fa-solid fa-satellite-dish"></i></a></i></div>
+            <div class="left-icons" id="left-icon4"><a href="#"><i class="fa-solid fa-calendar"></i></a></div>
+            <div class="left-icons" id="left-icon5"><a href="#"><i class="fa-solid fa-sliders"></i></a></div>
+            <div class="left-icons" id="left-icon6"><a href="#"><i class="fa-regular fa-comments"></i></a></div>
+            <div class="left-icons" id="left-icon7"><a href="#"><i class="fa-solid fa-right-from-bracket"></i></a></div>
+        </div>
+
+        <div class="mid-col">
+            <div class="mid-col-container">
+
+                <div class="mid-top-row">
+                    <ul>
+                        <li><i class="fa-solid fa-rectangle-list"></i></li>
+                        <li><i class="fa-solid fa-bars" style="color: #c7cbd1;"></i></li>
+                        <li><div class="icon-container right-align settings">
+                            <div class="custom-card">
+                              <button class="card-button button-mid-top">
+                                <p class="card-text">LAST 15 DAYS</p>
+                                <i class="fas fa-chevron-down"></i>
+                              </button>
+                            </div>        
+                          </div></i></button></li>
+                    </ul>
+                </div>
+                <div class="mid-followers-row">
+                    <div class="twitter-card cards">
+                        <i class="fa-brands fa-twitter fa-xl" style="color: #00acee;"></i><br>
+                        <h1>280k</h1>
+                        <p>Followers</p>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="instagram-card cards" style="background-color: white;">
+                        <i class="fa-brands fa-instagram fa-xl" style="color: #465f8b;"></i><br>
+                        <h1>680k</h1>
+                        <p>Followers</p>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="youtube-card cards">
+                        <i class="fa-brands fa-youtube fa-xl" style="color: #fd0000;"></i><br>
+                        <h1>2.3M</h1>
+                        <p>Followers</p>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    <div class="facebook-card cards">
+                        <i class="fa-brands fa-facebook-f fa-xl" style="color: #385a94;"></i><br>
+                        <h1>50k</h1>
+                        <p>Followers</p>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div class="mid-chart-row">
+                    <div class="chart-info">
+                        <p class="title">Instagram Subscribers</p>
+                        <div class="infoWrapper">
+                            <div class="gainbox">
+
+                                <span class="gain-circle green"></span>
+                                <span class="text">Gained</span>
+                            </div>
+                            <div class="lostbox">
+
+                                <span class="gain-circle red"></span>
+                                <span class="text">Lost</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mainContentWrapper">
+                        <canvas width="100%" height="30" id="chart1"></canvas>
+                      </div>
+                </div>
+                <div class="mid-bottom-row">
+                    <div class="mid-bottom-left">
+                        <h4>Key Metrics</h4>
+                        <span>Clicks</span><span class="key-metrics1">10k</span>
+                        <hr>
+                        <span>Likes</span><span class="key-metrics2">680</span>
+                        <hr>
+                        <span>Followers</span><span class="key-metrics3">8k</span>
+                        <hr>
+                        <span>Impressions</span><span class="key-metrics4">5500</span>
+
+                    </div>
+                    <div class="mid-bottom-mid card-bottom">
+                        <p>Engaged Users</p>
+                        <h1>12.2k</h1>
+                        <span><i class="fa-solid fa-angles-up" style="color: #5daa41;"></i>19%</span>
+                    </div>
+                    <div class="mid-bottom-right card-bottom">
+                        <p>Page Impressions</p>
+                        <h1>8.6k</h1>
+                        <span><i class="fa-solid fa-angles-down" style="color: #e22c2c;"></i>9%</span>
+                    </div>
+                </div>
+                            
+            </div>
+        </div>
+
+        <div class="right-col">
+            <div class="right-top-row">
+                <ul>
+                    <li style="display: flex; margin-top: 10px;"><i class="fa-regular fa-bell"></i></li>
+                    <li><div class="icon-container right-align settings">
+                        <div class="custom-card">
+                          <button class="card-button" style="background-color: #f7f5f9;">
+                            <i class="fa-solid fa-gift"></i>
+                            <p class="card-text">2 NEW UPDATES</p>
+                          </button>
+                        </div>        
+                      </div></li>
+                      <li style="display: flex; margin-top: 10px;"><i class="fa-regular fa-user"></i></li>
+                </ul>
+            </div>
+            <div class="right-mid-row">
+                <img src="images/scrum.png" alt="scrum">
+                <div id="my-element"></div>
+                <div style="margin-top: 50px;">
+                    <div class="custom-card">
+                        <div class="card-div">
+                            <div class="card-image-text">
+                                🤘 Say hi to <b>Laith Hart</b>
+                            </div>
+                            <img src="images/men.png" alt="" class="card-image">
+                        </div>
+                    </div>
+                    <div class="custom-card">
+                        <div class="card-div">
+                            <div class="card-image-text">
+                                🤘 Say hi to <b>Sidney Dyer</b>
+                            </div>
+                            <img src="images/woman.png" alt="" class="card-image">
+                        </div>
+                    </div>   
+                </div>
+               
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/dc518df3ec.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.4.0/air-datepicker.min.js"></script>
+    <script>
+        const localeEn = {
+            days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+            daysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+            daysMin: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+            months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            today: 'Today',
+            clear: 'Clear',
+            dateFormat: 'dd/mm/yyyy',
+            timeFormat: 'hh:ii',
+            firstDay: 0 
+        };
+        new AirDatepicker('#my-element', {
+        locale: localeEn,
+     });
+    </script>
+    <script src="./chart.js"></script>
+</body>
+</html>
